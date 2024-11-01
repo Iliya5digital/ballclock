@@ -1,0 +1,623 @@
+/* Проект "BallClock" */
+.ball-clock {
+    position: absolute;
+    width: 519px;
+    height: 63px;
+    left: 87px;
+    right: 594px;
+    top: 9px;
+    bottom: 606px;
+}
+
+/* Стили текста */
+.ball-clock .text-style {
+    color: rgb(0, 0, 0);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* Rectangle 1 */
+.rectangle-1 {
+    position: absolute;
+    width: 309px;
+    height: 131px;
+    left: 236px;
+    top: 377px;
+    border: 3px solid rgb(0, 0, 0);
+    background: rgba(196, 196, 196, 0);
+}
+
+/* AC */
+.ac {
+    position: absolute;
+    width: 78px;
+    height: 69px;
+    left: 329px;
+    right: 793px;
+    top: 412px;
+    bottom: 197px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* Rectangle 3 */
+.rectangle-3 {
+    position: absolute;
+    width: 29px;
+    height: 85px;
+    left: 234px;
+    top: 399px;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(1, 175, 88);
+}
+
+/* Oval 1 */
+.oval-1 {
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    left: 236px;
+    top: 416px;
+    border: 2px solid rgb(0, 195, 71);
+    background: rgb(124, 205, 127);
+    border-radius: 50%; /* Это придаст элементу форму овала или круга */
+}
+
+/* Oval 2 */
+.oval-2 {
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    left: 236px;
+    top: 449px;
+    border: 2px solid rgb(0, 195, 71);
+    background: rgb(124, 205, 127);
+    border-radius: 50%; /* Закругленные углы для овала */
+}
+
+/* Oval 3 */
+.oval-3 {
+    position: absolute;
+    width: 24px;
+    height: 25px;
+    left: 271px;
+    top: 412px;
+    border: 3px solid rgb(0, 0, 0);
+    background: rgba(196, 196, 196, 0);
+    border-radius: 50%; /* Это делает элемент овальным */
+}
+
+/* Vector 1 */
+.vector-1 {
+    position: absolute;
+    width: 25px;
+    height: 0; /* Высота в 0 может использоваться для линий */
+    left: 271px;
+    top: 425.5px;
+    border: 3px solid rgb(0, 0, 0); /* Это создаст линию */
+}
+
+/* Vector 2 */
+.vector-2 {
+    position: absolute;
+    width: 27.5px;
+    height: 0;
+    left: 283px;
+    top: 411.5px;
+    transform: rotate(90deg);
+    border: 3px solid rgb(0, 0, 0);
+}
+
+/* Oval 4 */
+.oval-4 {
+    position: absolute;
+    width: 24px;
+    height: 25px;
+    left: 271px;
+    top: 444px;
+    border: 3px solid rgb(0, 0, 0);
+    background: rgba(196, 196, 196, 0);
+    border-radius: 50%; /* Закругленные углы для овала */
+}
+
+/* Vector 3 */
+.vector-3 {
+    position: absolute;
+    width: 25.5px;
+    height: 0;
+    left: 271px;
+    top: 457px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+/* Rectangle 2 */
+.rectangle-2 {
+    position: absolute;
+    width: 809px;
+    height: 101px;
+    left: 152px;
+    top: 548px;
+    border: 3px solid rgb(15, 45, 99);
+    background: rgb(15, 45, 99);
+}
+
+/* GND */
+.gnd {
+    position: absolute;
+    width: 22px;
+    height: 12px;
+    left: 179px;
+    top: 636px;
+    transform: rotate(-90deg);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Console', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* D0 */
+.d0 {
+    position: absolute;
+    width: 15px;
+    height: 12px;
+    left: 189.5px;
+    top: 588.5px;
+    transform: rotate(90deg);
+    color: rgb(240, 240, 240);
+    font-family: 'Lucida Console', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* =5V */
+.value-5v {
+    position: absolute;
+    width: 22px;
+    height: 12px;
+    left: 190px;
+    top: 552px;
+    transform: rotate(90deg);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Console', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* GND (второй) */
+.gnd-two {
+    position: absolute;
+    width: 22px;
+    height: 12px;
+    left: 930px;
+    top: 614px;
+    transform: rotate(90deg);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Console', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* Din */
+.din {
+    position: absolute;
+    width: 22px;
+    height: 12px;
+    left: 929px;
+    top: 585px;
+    transform: rotate(90deg);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Console', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* +5V */
+.value-plus-5v {
+    position: absolute;
+    width: 22px;
+    height: 12px;
+    left: 930px;
+    top: 556px;
+    transform: rotate(90deg);
+    color: rgb(240, 240, 240);
+    font-family: 'Lucida Console', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* Line 1 */
+.line-1 {
+    position: absolute;
+    width: 65.01px;
+    height: 0;
+    left: 174px;
+    top: 621px;
+    transform: rotate(179.12deg);
+    border: 10px solid rgb(2, 142, 221);
+}
+
+/* Line 2 */
+.line-2 {
+    position: absolute;
+    width: 148px;
+    height: 0; /* Высота 0 для линии */
+    left: 109px;
+    top: 622px;
+    transform: rotate(-90.00deg);
+    border: 10px solid rgb(2, 142, 221); /* Цвет линии */
+}
+
+/* Line 3 */
+.line-3 {
+    position: absolute;
+    width: 136.33px;
+    height: 0; /* Высота линии */
+    left: 109px;
+    top: 477px;
+    transform: rotate(-8.01deg);
+    border: 10px solid rgb(2, 142, 221);
+	
+}
+
+/* Line 4 */
+.line-4 {
+    position: absolute;
+    width: 144.01px; /* Ширина линии */
+    height: 0; /* Высота линии */
+    left: 161px; /* Положение от левого края */
+    top: 570px; /* Положение от верхнего края */
+    transform: rotate(-90.80deg); /* Поворот линии */
+    border: 10px solid rgb(239, 10, 12); /* Цвет и толщину линии */
+}
+
+/* Line 5 */
+.line-5 {
+    position: absolute;
+    width: 144.01px; /* Длина линии */
+    height: 0; /* Высота, поскольку это линия */
+    left: 161px;
+    top: 570px;
+    transform: rotate(-90.80deg); /* Поворот линии */
+    border: 10px solid rgb(239, 10, 12); /* Цвет и толщина линии */
+}
+
+/* Line 6 */
+.line-6 {
+    position: absolute;
+    width: 73px;
+    height: 0;
+    left: 948px;
+    top: 571px;
+    transform: rotate(-90deg);
+    border: 10px solid rgb(238, 12, 10);
+}
+
+/* Line 7 */
+.line-7 {
+    position: absolute;
+    width: 52.09px;
+    height: 0;
+    left: 946px;
+    top: 596px;
+    transform: rotate(3.30deg);
+    border: 10px solid rgb(2, 206, 21);
+}
+
+
+/* Line 8 */
+.line-8 {
+    position: absolute;
+    width: 100px;
+    height: 0;
+    left: 947px;
+    top: 623px;
+    transform: rotate(-0.57deg);
+    border: 10px solid rgb(1, 143, 220);
+}
+
+/* Line 9 */
+.line-9 {
+    position: absolute;
+    width: 247px;
+    height: 0; /* Высота 0 для создания линии */
+    left: 948px;
+    top: 499px;
+    transform: rotate(-179.77deg);
+    border: 10px solid rgb(238, 12, 10);
+}
+
+/* Любой диод */
+.diode {
+    position: absolute;
+    width: 140.38px;
+    height: 25.02px;
+    left: 1076.45px;
+    right: -16.83px;
+    top: 621.8px;
+    bottom: 31.18px;
+    transform: rotate(-91deg);
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* Line 10 */
+.line-10 {
+    position: absolute;
+    width: 72.01px;
+    height: 0;
+    left: 702px;
+    top: 498px;
+    transform: rotate(-90.80deg);
+    border: 10px solid rgb(238, 12, 10);
+}
+
+/* Line 11 */
+.line-11 {
+    position: absolute;
+    width: 445px;
+    height: 0;
+    left: 997px;
+    top: 599px;
+    transform: rotate(-90.00deg);
+    border: 10px solid rgb(0, 206, 19);
+}
+
+/* Line 12 */
+.line-12 {
+    position: absolute;
+    width: 197px;
+    height: 0;
+    left: 997px;
+    top: 154px;
+    transform: rotate(-179.71deg);
+    border: 10px solid rgb(0, 206, 19);
+}
+
+/* Line 13 */
+.line-13 {
+    position: absolute;
+    width: 51.01px;
+    height: 0;
+    left: 801px;
+    top: 153px;
+    transform: rotate(91.12deg);
+    border: 10px solid rgb(0, 206, 19);
+}
+
+/* Line 15 */
+.line-15 {
+    position: absolute;
+    width: 49px;
+    height: 0;
+    left: 1047px;
+    top: 623px;
+    transform: rotate(-90.00deg);
+    border: 10px solid rgb(2, 144, 222);
+}
+
+/* Rectangle 5 */
+.rectangle-5 {
+    position: absolute;
+    width: 8px;
+    height: 13px;
+    left: 1041px;
+    top: 554px;
+    background: rgb(196, 196, 196);
+}
+
+/* Rectangle 7 */
+.rectangle-7 {
+    position: absolute;
+    width: 24px;
+    height: 11px;
+    left: 1034px;
+    top: 543px;
+    background: rgb(18, 18, 18);
+}
+
+/* Rectangle 8 */
+.rectangle-8 {
+    position: absolute;
+    width: 24px;
+    height: 6px;
+    left: 1034px;
+    top: 537px;
+    background: rgb(195, 195, 195);
+}
+
+/* Rectangle 9 */
+.rectangle-9 {
+    position: absolute;
+    width: 24px;
+    height: 42px;
+    left: 1034px;
+    top: 498px;
+    background: rgb(18, 18, 18);
+}
+
+/* Rectangle 6 */
+.rectangle-6 {
+    position: absolute;
+    width: 7px;
+    height: 14px;
+    left: 1044px;
+    top: 481px;
+    background: rgb(196, 196, 196);
+}
+
+/* Line 16 */
+.line-16 {
+    position: absolute;
+    width: 377px;
+    height: 0;
+    left: 1047px;
+    top: 482px;
+    transform: rotate(-90.00deg);
+    border: 10px solid rgb(1, 142, 221);
+}
+
+/* Line 18 */
+.line-18 {
+    position: absolute;
+    width: 50.01px;
+    height: 0;
+    left: 1048px;
+    top: 104px;
+    transform: rotate(178.85deg);
+    border: 10px solid rgb(1, 143, 222);
+}
+
+/* Rectangle 11 */
+.rectangle-11 {
+    position: absolute;
+    width: 18px;
+    height: 9px;
+    left: 980px;
+    top: 100px;
+    background: rgb(140, 140, 140);
+}
+
+/* Rectangle 12 */
+.rectangle-12 {
+    position: absolute;
+    width: 12px;
+    height: 22px;
+    left: 968px;
+    top: 93px;
+    background: rgb(229, 179, 112);
+}
+
+/* Line 19 */
+.line-19 {
+    position: absolute;
+    width: 22.02px;
+    height: 0;
+    left: 973px;
+    top: 93px;
+    transform: rotate(87.40deg);
+    border: 2px solid rgb(170, 163, 39);
+}
+
+/* Rectangle 13 */
+.rectangle-13 {
+    position: absolute;
+    width: 11px;
+    height: 21px;
+    left: 957px;
+    top: 94px;
+    background: rgb(229, 179, 112);
+}
+
+/* Rectangle 14 */
+.rectangle-14 {
+    position: absolute;
+    width: 7px;
+    height: 21px;
+    left: 950px;
+    top: 94px;
+    background: rgb(250, 86, 18);
+}
+
+/* Rectangle 15 */
+.rectangle-15 {
+    position: absolute;
+    width: 5px;
+    height: 22px;
+    left: 945px;
+    top: 94px;
+    background: rgb(229, 179, 112);
+}
+
+/* Rectangle 16 */
+.rectangle-16 {
+    position: absolute;
+    width: 7px;
+    height: 23px;
+    left: 938px;
+    top: 93px;
+    background: rgb(0, 0, 0);
+}
+
+/* Rectangle 18 */
+.rectangle-18 {
+    position: absolute;
+    width: 7px;
+    height: 24px;
+    left: 925px;
+    top: 92px;
+    background: rgb(155, 61, 1);
+}
+
+/* Rectangle 19 */
+.rectangle-19 {
+    position: absolute;
+    width: 8px;
+    height: 24px;
+    left: 917px;
+    top: 92px;
+    background: rgb(229, 179, 112);
+}
+
+/* Rectangle 20 */
+.rectangle-20 {
+    position: absolute;
+    width: 12px;
+    height: 9px;
+    left: 905px;
+    top: 100px;
+    background: rgb(140, 140, 140);
+}
+
+/* Line 20 */
+.line-20 {
+    position: absolute;
+    width: 81px;
+    height: 0;
+    left: 905px;
+    top: 104px;
+    transform: rotate(180.00deg);
+    border: 10px solid rgb(0, 141, 221);
+}
+
+/* Line 21 */
+.line-21 {
+    position: absolute;
+    width: 101px;
+    height: 0;
+    left: 850px;
+    top: 104px;
+    transform: rotate(90.00deg);
+    border: 10px solid rgb(0, 141, 221);
+}
